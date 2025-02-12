@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     margin: 2rem auto;
-    max-width: 210mm; /* Standard A4 paper width */
+    max-width: 210mm;
     padding: 0 20px;
 }
 
@@ -28,19 +28,19 @@ h2 {
 }
 
 .education-item .branch-location {
-    display: flex; /* Aligns branch and location horizontally */
-    justify-content: space-between; /* Pushes branch and location to opposite ends */
-    align-items: center; /* Vertically aligns content */
-    margin: 0; /* Removes extra margin */
-    padding: 0; /* Removes extra padding */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 .education-item .branch {
-    margin: 0; /* Removes default margin for alignment */
+    margin: 0;
 }
 
 .education-item .branch-location .location {
-    margin-left: 1rem; /* Optional: Adjust spacing between branch and location */
+    margin-left: 1rem;
 }
 
 .skill-grid {
