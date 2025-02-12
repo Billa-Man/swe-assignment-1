@@ -1,0 +1,96 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>John Doe - Machine Learning Engineer</title>
+    <link rel="stylesheet" href="{% static 'converter/resume.css' %}">
+</head>
+<body>
+    <header class="header">
+        <h1>Sohith Bandari</h1>
+        <div class="contact-info">
+            Brooklyn, New York, NY • (929) 877-3449 • sb10225@nyu.edu
+        </div>
+    </header>
+
+    <!-- Education Section -->
+    <section class="education">
+        <h2>EDUCATION</h2>
+        
+        <div class="education-item">
+            <h3>New York University</h3>
+            <div class="details">
+                <p>Master of Science in Computer Science (GPA: 3.8)</p>
+                <p>September 2024 - May 2026 | New York, United States</p>
+            </div>
+            <div class="coursework">
+                <strong>Relevant coursework:</strong> Machine Learning, Artificial Intelligence, 
+                Deep Learning, MLOps, Software Engineering
+            </div>
+        </div>
+
+        <div class="education-item">
+            <h3>Indian Institute of Technology, Dhanbad</h3>
+            <div class="details">
+                <p>Bachelor of Technology in Electronics and Communication Engineering</p>
+                <p>December 2020 - May 2024 | Jharkhand, India</p>
+            </div>
+            <div class="coursework">
+                <strong>Relevant coursework:</strong> Probability & Statistics, Data Mining, 
+                Digital Image Processing, Pattern Recognition
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills -->
+    <section class="technical-skills">
+        <h2>TECHNICAL SKILLS</h2>
+        <div class="skill-grid">
+            <div class="skill-category">
+                <strong>Languages:</strong> C/C++, Python, SQL, MATLAB, Rust
+            </div>
+            <div class="skill-category">
+                <strong>Frameworks:</strong> PyTorch, TensorFlow, JAX, LangChain, Streamlit
+            </div>
+            <div class="skill-category">
+                <strong>Libraries:</strong> NumPy, Pandas, Matplotlib, sciPy, scikit-learn, Keras, HuggingFace
+            </div>
+            <div class="skill-category">
+                <strong>Tools:</strong> Git, GitHub, Linux, AWS, Docker, Kubernetes, FastAPI, Excel, PostgreSQL
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects">
+        <h2>PROJECTS</h2>
+
+        <div class="project-item">
+            <h3>Soothify <span class="tech-stack">| Python, Huggingface, ClearML, MongoDB, Qdrant</span></h3>
+            <ul>
+                <li>Implemented RAG system for software developers with domain-specific query responses</li>
+                <li>Created ETL pipeline for processing C++/Python documentation into MongoDB and Qdrant</li>
+                <li>Fine-tuned LLaMa 3.2 3b using LoRA on custom ChatGPT-generated dataset</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <h3>Git Issue Bot <span class="tech-stack">| Python, LangChain, Streamlit, Docker, PostgreSQL</span></h3>
+            <ul>
+                <li>Engineered intelligent chatbot leveraging OpenAI's API to dynamically search GitHub repositories and issues</li>
+                <li>Architected context-aware response system using LangChain framework with 85% accuracy improvement</li>
+                <li>Developed containerized full-stack application using Streamlit and Docker</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <h3>RAG System for Code Generation <span class="tech-stack">| Python, Huggingface, ClearML, MongoDB, Qdrant</span></h3>
+            <ul>
+                <li>Implemented RAG system for software developers with domain-specific query responses</li>
+                <li>Created ETL pipeline for processing C++/Python documentation into MongoDB and Qdrant</li>
+                <li>Fine-tuned LLaMa 3.2 3b using LoRA on custom ChatGPT-generated dataset</li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
