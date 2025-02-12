@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>John Doe - Machine Learning Engineer</title>
+    <title>Sohith Bandari - Machine Learning Engineer</title>
     <link rel="stylesheet" href="{% static 'converter/resume.css' %}">
 </head>
 <body>
@@ -61,34 +61,49 @@
         </div>
     </section>
 
+    <!-- Experience Section -->
+    <section class="projects">
+        <h2>EXPERIENCE</h2>
+        <div class="project-item">
+            <h3>Reliance Jio Infocomm Limited <span class="tech-stack">| Software Engineering Intern (June 2023 - July 2023)</span></h3>
+            <ul>
+                <li>Implemented an end-to-end Computer Vision model to detect empty spaces in data center racks using YOLOv8m. The dataset was derived from images on the Internet & labelled manually, then preprocessed & augmented for better results.</li>
+                <li>Testing the model yielded a score of mAP50: 0.517 and mAP50-95: 0.312.</li>
+                <li>Tested multiple models for the team on Gradio which returned satisfactory results. This model will be assessed on real-world data and deployed on a production scale.</li>
+            </ul>
+        </div>
+    </section>
+
     <!-- Projects Section -->
     <section class="projects">
         <h2>PROJECTS</h2>
 
         <div class="project-item">
-            <h3>Soothify <span class="tech-stack">| Python, Huggingface, ClearML, MongoDB, Qdrant</span></h3>
+            <h3>HerWay: Women Safety App <span class="tech-stack">| PyTorch, Huggingface, FastAPI</span></h3>
             <ul>
-                <li>Implemented RAG system for software developers with domain-specific query responses</li>
-                <li>Created ETL pipeline for processing C++/Python documentation into MongoDB and Qdrant</li>
-                <li>Fine-tuned LLaMa 3.2 3b using LoRA on custom ChatGPT-generated dataset</li>
+                <li>Provided a comprehensive solution to the problem of harassment against women in public space.</li>
+                <li>Leveraged sentence analysis on data from safecity.in to assess location safety. Employed geocoding for coordinates retrieval and calculated risk based on nearby crime severity. Utilised graph algorithms to recommend the safest routes for women travelers.</li>
+                <li>2nd Runner-up in HackFest 2023. The project was discussed during a session in the Rajya Sabha, the upper house of India’s Parliament.</li>
             </ul>
         </div>
 
         <div class="project-item">
             <h3>Git Issue Bot <span class="tech-stack">| Python, LangChain, Streamlit, Docker, PostgreSQL</span></h3>
             <ul>
-                <li>Engineered intelligent chatbot leveraging OpenAI's API to dynamically search GitHub repositories and issues</li>
-                <li>Architected context-aware response system using LangChain framework with 85% accuracy improvement</li>
-                <li>Developed containerized full-stack application using Streamlit and Docker</li>
+                <li>Engineered an intelligent chatbot leveraging OpenAI’s API to dynamically search GitHub repositories and issues.</li>
+                <li>Architected a robust conversational system using LangChain framework, implementing custom tools and chains for relevant context-aware responses and improved search accuracy.</li>
+                <li>Designed and implemented a PostgreSQL database system for efficient management of user interactions, chat histories, and personalized repository and issue bookmarking.</li>
+                <li>Developed a containerized full-stack application using Streamlit for the frontend interface, ensuring seamless deployment and scalability through Docker.</li>
             </ul>
         </div>
 
         <div class="project-item">
             <h3>RAG System for Code Generation <span class="tech-stack">| Python, Huggingface, ClearML, MongoDB, Qdrant</span></h3>
             <ul>
-                <li>Implemented RAG system for software developers with domain-specific query responses</li>
-                <li>Created ETL pipeline for processing C++/Python documentation into MongoDB and Qdrant</li>
-                <li>Fine-tuned LLaMa 3.2 3b using LoRA on custom ChatGPT-generated dataset</li>
+                <li>Implemented a RAG system to assist software developers, enabling domain-specific query responses for coding tasks.</li>
+                <li>Created an ETL pipeline from scratch in Python to ingest and process data from C++ and Python documentations, storing raw data in MongoDB and vectorized representations in Qdrant.</li>
+                <li>Fine-tuned LLaMa 3.2 3b by implementing LoRA (Low-Rank Adaptation) on a custom preference dataset generated using chatGPT API.</li>
+                <li>Deployed a Gradio-based application with Huggingface Hub and Ollama integration for code generation instructions. Utilized Open WebUI for an enhanced user interface and improved interaction with the LLM model.</li>
             </ul>
         </div>
     </section>
