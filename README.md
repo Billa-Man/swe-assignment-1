@@ -13,7 +13,7 @@ This guide will help you set up and run the project locally.
 First, clone the repository
 ```
 git clone https://github.com/Billa-Man/swe-assignment-1.git
-cd <project-directory>
+cd swe-assignment-1
 ```
 
 ### 1. Virtual Environment Setup
