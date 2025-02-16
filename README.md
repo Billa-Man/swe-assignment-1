@@ -39,5 +39,6 @@ pip install -r requirements.txt
 # Usage
 Simply run the following code in your project directory after activating the environment:
 ```
+cd resume_project/resume_site
 python3 manage.py runserver
 ```
